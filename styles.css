@@ -1,0 +1,92 @@
+:root{
+    --more-space: 20px 40px;
+    --grey: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+.left img{
+    width: 33.33vw;
+    max-width: 100%;
+    height: 100%;
+}
+
+.right {
+    width: 66.66vw;
+    background-color: var(--grey);
+}
+
+.right form{
+    background-color: #fff;
+    box-shadow: 2px 3px 15px 0px #9b9a9a;
+}
+
+.right p{
+    font-size: 1.5rem;
+    width: 50%;
+    padding: var(--more-space);
+}
+
+.right p:first-child{
+    padding: 120px 80px 20px;
+}
+
+.right .last-paragraph{
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+
+fieldset {
+    border: none;
+}
+
+form h1 {
+    padding: var(--more-space);
+    text-align: center;
+}
+
+.label-above label {
+    display: block;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+form label {
+    font-size: 0.8rem;
+}
+
+.label-above {
+    display: flex;
+    flex-direction: row;
+}
+  
+.input-group {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0 10px 80px;
+}
+
+form input {
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+}
+  
+  
