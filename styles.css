@@ -58,8 +58,7 @@ fieldset {
 }
 
 form h1 {
-    padding: var(--more-space);
-    text-align: center;
+    padding: 20px 80px;
 }
 
 .label-above label {
@@ -88,5 +87,37 @@ form input {
     height: 40px;
     border-radius: 5px;
 }
-  
-  
+
+#submit {
+    border: 2px solid green;
+    padding: 10px 25px;
+    background-color: #fff;
+    font-size: 1rem;
+    margin: 20px 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    background-color: green;
+    color: #fff;
+}
+
+#log-in {
+    margin: 20px 50px; 
+}
+
+#log-in a {
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+.left p {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: 2rem;
+}
